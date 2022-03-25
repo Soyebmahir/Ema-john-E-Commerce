@@ -15,4 +15,13 @@
     font-size: 21px;
     line-height: 25px;
 
+
+}
+
+.product-price {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
 }
