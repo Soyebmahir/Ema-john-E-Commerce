@@ -57,3 +57,7 @@
 .btn-cart:hover {
     background-color: orange;
 }
+
+.icon {
+    margin-left: 5px;
+}

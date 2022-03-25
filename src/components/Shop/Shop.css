@@ -11,6 +11,11 @@
 
 }
 
+/* .shopping-cart {
+    position: fixed;
+    right: 0;
+} */
+
 @media screen and (max-width: 1100px) {
     .products-container {
 
