@@ -5,7 +5,7 @@ const Product = (props) => {
     const {product,handleAddToCart}=props
     const {name,seller,img,ratings,price}=product
     
-    console.log(name);
+    // console.log(name);
 
 
     return (
