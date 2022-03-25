@@ -2,8 +2,12 @@ import React from 'react';
 import './Product.css'
 
 const Product = (props) => {
-    const {name,seller,img,ratings,price}=props.product
+    const {product,handleAddToCart}=props
+    const {name,seller,img,ratings,price}=product
+    
     console.log(name);
+
+
     return (
         <div className='product'>
            <img src={img} alt="" />
@@ -13,8 +17,8 @@ const Product = (props) => {
            <p><small>Seller :{seller}</small></p>
            <p><small>Rating: {ratings} stars</small></p>
           </div>
-          <div className='btn-cart'>
-              <button>
+          <div >
+              <button onClick={()=>handleAddToCart(product)} className='btn-cart'>
                   Add to cart
               </button>
           </div>
